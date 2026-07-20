@@ -45,10 +45,11 @@ fc-cache -f
 
 Then drop the configs into place:
 
-bash
+\`\`\`bash
 cp picom.conf     ~/.config/picom/
 cp conky.conf     ~/.config/conky/
 cp alacritty.toml ~/.config/alacritty/
+\`\`\`
 
 Apply the themes via **Settings**:
 - Appearance → Style → **Nordic**
