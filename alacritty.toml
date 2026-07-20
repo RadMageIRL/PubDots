@@ -1,0 +1,75 @@
+# ~/.config/alacritty/alacritty.toml
+# "Phosphor" v2 — green CRT identity, but TUI-safe ANSI palette.
+# The primary bg/fg/cursor stay green (that's the vibe for your shell),
+# while the 16 ANSI colors are conventional + high-contrast so curses
+# apps like RE-MOCT render their highlights correctly.
+
+# ── Window ────────────────────────────────────────────────────────────
+[window]
+decorations = "None"
+opacity = 0.85
+blur = true
+dynamic_padding = true
+padding = { x = 0, y = 0 }
+
+# ── Font ──────────────────────────────────────────────────────────────
+[font]
+size = 12.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Italic"
+
+# ── Cursor ────────────────────────────────────────────────────────────
+[cursor]
+style = { shape = "Block", blinking = "On" }
+
+# ── Colors ────────────────────────────────────────────────────────────
+# Phosphor identity lives HERE (shell prompt, plain text, cursor):
+[colors.primary]
+background        = "#060a07"
+foreground        = "#d9ecdf"
+dim_foreground    = "#7f9a89"
+bright_foreground = "#f2fbf5"
+
+[colors.cursor]
+text   = "#060a07"
+cursor = "#4be88a"
+
+[colors.vi_mode_cursor]
+text   = "#060a07"
+cursor = "#e8c04b"
+
+[colors.selection]
+text       = "CellForeground"
+background = "#234a33"   # slightly brighter so selection reads on the dark bg
+
+# Conventional, well-separated ANSI 0-15 so TUIs get correct contrast.
+# Green + yellow still nod to the theme; blue/magenta/cyan are REAL now.
+[colors.normal]
+black   = "#0b120d"
+red     = "#e0555f"
+green   = "#4be88a"   # theme green (green is green — safe)
+yellow  = "#e8c04b"   # theme amber
+blue    = "#5b8cff"   # a proper readable blue (was green-shifted before)
+magenta = "#c678dd"   # a proper magenta (this is what fixes the radio row)
+cyan    = "#33c9d6"   # a proper cyan (was too green before)
+white   = "#c7d6cc"
+
+[colors.bright]
+black   = "#4d6459"
+red     = "#ff7b8a"
+green   = "#7dffb0"
+yellow  = "#ffd76b"
+blue    = "#8ab4ff"
+magenta = "#e0a3f0"
+cyan    = "#7dffdc"
+white   = "#f2fbf5"
