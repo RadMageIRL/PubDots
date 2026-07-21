@@ -6,7 +6,7 @@ wallpaper. Every layer — chrome, terminals, conky, and panel — shares one
 dark-green palette.
 
 ![screenshot](screenshot.png)
-![screenshot3](screenshot3.png)
+![screenshot8](screenshot8.png)
 
 ## The Stack
 
