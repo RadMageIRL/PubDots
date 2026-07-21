@@ -3,8 +3,8 @@
 My Debian 13 (Trixie) smoke-test box, riced on Xfce / Xfwm4. Nord chrome with a
 phosphor-green terminal identity, over a *My Neighbor Totoro* wallpaper.
 
-![screenshot1](screenshot.png)
-![screenshot](screenshot3.png)
+![screenshot](screenshot.png)
+![screenshot3](screenshot3.png)
 
 ## The Stack
 
