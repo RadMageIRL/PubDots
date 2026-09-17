@@ -1,5 +1,5 @@
 # ~/.config/alacritty/alacritty.toml
-# "Phosphor" v2 — green CRT identity, but TUI-safe ANSI palette.
+# "Phosphor" v2 - green CRT identity, but TUI-safe ANSI palette.
 # The primary bg/fg/cursor stay green (that's the vibe for your shell),
 # while the 16 ANSI colors are conventional + high-contrast so curses
 # apps like RE-MOCT render their highlights correctly.
@@ -57,7 +57,7 @@ background = "#234a33"   # slightly brighter so selection reads on the dark bg
 [colors.normal]
 black   = "#0b120d"
 red     = "#e0555f"
-green   = "#4be88a"   # theme green (green is green — safe)
+green   = "#4be88a"   # theme green (green is green - safe)
 yellow  = "#e8c04b"   # theme amber
 blue    = "#5b8cff"   # a proper readable blue (was green-shifted before)
 magenta = "#c678dd"   # a proper magenta (this is what fixes the radio row)
